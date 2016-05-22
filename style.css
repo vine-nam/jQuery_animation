@@ -1,0 +1,231 @@
+#earth {
+    width: 130px;
+    left: 45px;
+    top: 260px;
+	position: absolute;
+}
+#star {
+    width: 40px;
+	position: absolute;
+}
+p {
+    font-size: 50px;
+    width: 70px;
+}
+#p1 {
+    //margin-left:-10px;
+}
+.cipher{
+    margin-top: -120px;
+    margin-left: 150px;
+    writing-mode: vertical-rl;
+}
+form {
+    margin-left: 200px;
+}
+#re {
+    width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+    position: relative;
+	border-bottom: 20px solid black; 
+    margin-left: 200px;
+    position: relative;
+}
+#re:after {
+    content: "re";
+    color: yellow;
+    left: -7px;	
+    position: absolute;
+
+}
+
+.bill {
+	left : 50px;
+	top : 50px;
+	position: absolute;
+}
+
+.square {
+    width: 15px;
+    height: 60px;
+    background: black;
+    position: relative;
+    margin-left: 52px;
+}
+.square:after {
+    background: black;
+    content: "";
+    height: 4px;
+    left: -7.5px;
+    position: absolute;
+    top: 57px;
+    width: 30px;
+}
+.triangle {
+    width: 0;
+	height: 0;
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+    position: relative;
+	border-bottom: 100px solid yellow;
+}
+.triangle:before {
+    width: 50px;
+	height: 30px;
+	background: white;
+    content: "";
+    position: absolute;
+    top: 39px;
+    left: -25px;
+	border-radius: 110px / 70px;
+}
+.triangle:after {
+    width: 10px;
+	height: 28px;
+	background: black;
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: -5px;
+	border-radius: 20px / 50px;
+}
+.ribbon {
+    width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-left: 15px solid black;
+	border-bottom: 10px solid transparent;
+    position: relative;
+    margin-top: -25px;
+    margin-left: 45px;
+}
+.ribbon:after {
+    width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-right: 15px solid black;
+	border-bottom: 10px solid transparent;
+    content: "";
+    position: absolute;
+    top: -9.5px;
+}
+.leg {
+    width: 30px;
+	height: 40px;
+    background: black;
+    position: relative;
+    border-radius: 0px 90px 0px 20px;
+    margin-left: 33px; 
+    margin-top: 6px;
+}
+.leg:before{
+    width: 0;
+	height: 0;
+    top: 30px;
+    left: 0px;
+	border-bottom: 15px solid white;
+	border-left: 23px solid transparent;
+  position: absolute;
+  content: "";
+}
+.leg:after {
+    width: 0;
+	height: 0;
+    top: 0px;
+    left: 8px;
+	border-top: 30px solid white;
+	border-right: 60px solid transparent;
+    position: absolute;
+    content: "";
+}
+.leg2 {
+    width: 30px;
+	height: 30px;
+    background: black;
+    position: relative;
+    border-radius: 90px 0px 20px 0px;
+    margin-left: 58px; 
+    margin-top: -40px;
+}
+.leg2:before{
+    width: 0;
+	height: 0;
+    top: 22px;
+    left: 8px;
+	border-bottom: 9px solid white;
+	border-right: 20px solid transparent;
+  position: absolute;
+  content: "";
+}
+.leg2:after {
+    width: 0;
+	height: 0;
+    top: 0px;
+    left: -11px;
+	border-top: 20px solid white;
+	border-left: 34px solid transparent;
+    position: absolute;
+    content: "";
+}
+.arm {
+    width: 8px;
+	height: 45px;
+    background: black;
+    position: relative;
+    border-radius: 0px 0px 0px;
+    margin-left: 24px; 
+    margin-top: -30px;
+}
+.arm:before {
+    width: 15px;
+	height: 15px;
+    background: black;
+    border-radius: 10px 10px 10px 10px;
+    top: 41px;
+    left: 0px;
+    position: absolute;
+    content: "";
+}
+.arm:after {
+    width: 10px;
+	height: 10px;
+    background: white;
+    border-radius: 3px 1px 1px 10px;
+    top: 40px;
+    left: 8px;
+    position: absolute;
+    content: "";
+    filter: fliph;
+}
+.arm2 {
+    width: 8px;
+	height: 45px;
+    background: black;
+    position: relative;
+    border-radius: 0px 0px 0px;
+    margin-left: 89px; 
+    margin-top: -45px;
+}
+.arm2:before {
+    width: 15px;
+	height: 15px;
+    background: black;
+    border-radius: 10px 10px 10px 10px;
+    top: 41px;
+    left: -7px;
+    position: absolute;
+    content: "";
+}
+.arm2:after {
+    width: 10px;
+	height: 10px;
+    background: white;
+    border-radius: 1px 1px 10px 3px;
+    top: 41px;
+    left: -10px;
+    position: absolute;
+    content: "";
+    filter: fliph;
+}
