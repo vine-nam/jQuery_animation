@@ -19,7 +19,6 @@ $("#left").click(function(e) {
 });
 */
 
-
 /*
 var angle = 0;
 setInterval(function(){
